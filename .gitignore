@@ -67,3 +67,4 @@ signoff/**/drc.*
 signoff/**/lvs.*
 signoff/**/metrics.csv
 signoff/**/cmds.log
+temp_secure_logger/
