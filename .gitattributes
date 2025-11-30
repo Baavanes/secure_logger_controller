@@ -1,6 +1,9 @@
 def/*.def filter=lfs diff=lfs merge=lfs -text
 verilog/gl/*.v filter=lfs diff=lfs merge=lfs -text
 mag/*.mag filter=lfs diff=lfs merge=lfs -text
+def/user_proj_example.def filter=lfs diff=lfs merge=lfs -text
+verilog/gl/user_proj_example.v filter=lfs diff=lfs merge=lfs -text
+mag/user_proj_example.mag filter=lfs diff=lfs merge=lfs -text
 *.mag filter=lfs diff=lfs merge=lfs -text
 *.v filter=lfs diff=lfs merge=lfs -text
 *.def filter=lfs diff=lfs merge=lfs -text
