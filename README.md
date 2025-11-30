@@ -34,8 +34,9 @@ This project implements a secure, low-power Medical Event Logger SoC on the Cara
 ---
 
 ## Architecture
+![Arquitectura](https://github.com/user-attachments/assets/5bf1885d-a2a1-470f-8a1d-809667c5cd96)
 
-![System-level architecture diagram](Secure-Logger-Controller-Block-Diagram.png)
+
 
 System-level block diagram showing integration of:
 
