@@ -75,3 +75,4 @@ verilog/dv/caravel/
 venv-cocotb/
 .venv/
 venv-cocotb/
+mag/user_project_wrapper.mag
