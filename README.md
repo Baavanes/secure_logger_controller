@@ -72,25 +72,24 @@ pip install cf-ipm
 ipm install Neuromorphic_X1_32x32
 ```
 
-4. **Install the Neuromorphic X1 IP:**
-For a unified simulation/hardening flow, rename the Neuromorphic behavioral module (if not already done):
+### 4. Install the Neuromorphic X1 IP
 ```bash
-ipm install Neuromorphic_X1_32x32
+Replace folder hdl inside ip/Neuromorphic_X1_32x32/hdl with folder hdl_replace_inside_ip
+Rename hdl_replace_inside_ip inside ip/Neuromorphic_X1_32x32/ with hdl
 ```
 
-5. **Edit Behavioral Model Name in IP:**
-
-In other words, rename line 16 and line 58...
-```
-File: ip/Neuromorphic_X1_32x32/hdl/beh_model/Neuromorphic_X1_Beh.v
-16: module Neuromorphic_X1_wb (
-58: ADDR_MATCH = 32'h3000_0000
+### 5. Edit Behavioral Model Name in IP
+```bash
+Rename folders
+gdss with gds
+leff with lef
+libb with lib
 ```
 
 6. **Run Testbenches:**
 
 ```bash
-make cocotb-verify-all-rtl
+make cocotb-verify-ram_word-rtl
 ```
 
 7. **Harden the Design:**
